@@ -1,0 +1,375 @@
+
+*{margin: 0;padding: 0;}
+ul,ol,li {list-style: none;}
+a, a:hover {text-decoration: none}
+
+body{
+    background: #0c0c0c;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+
+    background: #0F0F0F;
+    height: 80px;
+}
+
+.menu {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__link {
+    display: flex;
+}
+
+.links {
+    font-weight: 900;
+
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #969696;
+    margin: 0 20px;
+}
+
+/*-----------------------------------*/
+
+#hero {
+    background: url("./img/Rectangle 3.png")center/cover;
+    height: 89vh;
+}
+
+.hero__items {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+    border: 4px solid #FFFFFF;
+    width: 320px;
+    height: 190px;
+}
+
+.items__title {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.items__img {
+    width: 185px;
+    height: 50px;
+    border-bottom: 2px solid #fff;
+}
+
+.hero__wrap {
+    width: 730px;
+
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 250px;
+    padding-top: 430px;
+}
+/*>............................*/
+.season--title{
+    font-size: 36px;
+    text-align: center;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: white;
+}
+.card--img{
+    background: #0F0F0F;
+    padding: 30px 0;
+}
+.card--title{
+    font-size: 18px;
+    color: white;
+
+}
+.card--title2{
+    font-size: 16px;
+    color: white;
+}
+.season--wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.new--collection--items{
+    display: flex;
+    justify-content: space-between;
+}
+.items--collection{
+    background: url("./img/Rectangle 8.png");
+    width: 880px;
+}
+.items--season{
+    margin-right: 50px ;
+}
+.wrap--card{
+    margin: 0 10px;
+
+}
+.collection--title{
+    margin-bottom: 30px;
+    font-size: 36px;
+    padding-top: 200px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.line{
+    width: 120px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+.collection--link{
+    border: 2px solid honeydew;
+    padding: 10px 30px;
+    font-size:18px ;
+    margin-left: 130px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+}
+/*..........................................*/
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-btn{
+    border: 2px solid white;
+    width: 255px;
+    height: 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.title--p {
+    margin-top: 50px;
+    text-align: center;
+    width: 550px;
+    line-height: 25px;
+}
+.title-tema{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 40px;
+}
+.title-text{
+    margin-left: 40px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+}
+/*...................................................*/
+
+
+.text-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-left: 400px;
+}
+.past-wrap{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.card--wrap--collection{
+    margin-top: 100px;
+}
+.items--wrap{
+    padding-bottom: 50px;
+}
+/*................................*/
+
+
+.brend{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+.text-titel{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-left: 450px;
+    margin-top: 70px;
+    padding-top: 70px ;
+}
+.img{
+    margin-left: 10px;
+}
+.list{
+    margin-top: 70px;
+    width: 100px;
+    margin-left: 530px;
+}
+#past4{
+    background: #2f2e2e;
+}
+#past5{
+    height: 69vh;
+    background: url("./img/Rectangle 15.png") no-repeat center/cover;
+}
+.option--wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.title-opt{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-left: 30px;
+
+
+}
+.text-2{
+    line-height: 30px;
+    margin-top: 40px;
+    color: white;
+    width: 400px;
+    font-size: 15px ;
+    margin-left: 40px;
+}
+.block{
+    margin-top: 40px;
+    padding: 0 25px;
+    width: 300px;
+
+}
+.img2{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.input{
+    margin-left: 40px;
+    margin-top: 40px;
+    background: rgb(255, 251, 251);
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+.btn2{
+    margin-left: 20px;
+    height: 30px;
+    background: linear-gradient(black, #fffbfb);
+
+}
+/*....................................*/
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+}
+.t-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.the-end{
+    color: white;
+    font-size: 14px;
+}
+
+#span{
+ height: 100vh;
+    background: #000;
+    margin-top: 200px;
+    padding-left: 200px;
+}
+.span2{
+    background: #FFFFFF;
+    padding: 50px;
+}
+.block{
+   background: #00ff00;
+   transition:all .7s ;
+}
+.block1:hover{
+    background: red;
+    color: aqua;
+}
+.block2{
+    background: cyan;
+}
+.block2:active{
+    background: deeppink;
+    padding: 20px;
+
+}
+.block3{
+ background: #fffbfb;
+    font-size: 40px;
+}
+.block3:focus{
+    background: antiquewhite;
+    color: cornsilk;
+    padding: 0;
+
+}
+.block1{
+    margin-top: 200px;
+}
+.desk2{
+   margin-top: 200px;
+    color: #fff;
+
+}
+.gwe{
+    color: green;
+}
+
+.text{
+    color: red;
+}
+.block123{
+    width:200px ;
+    height: 200px;
+    background: chartreuse;
+}
+.block123:before{
+    content: '';
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    margin-left: 500px                                                                  ;
+}
+
+
+
+
+
+
+
